@@ -29,6 +29,6 @@ With inner join of 2 entities:
     .andFrom(Address.class).joinOn(Person_.id, Address_.personId)
       .with(Address_.state).equalTo("CA")
       .resultList();
-```java
+```
 This utility is intended to simplify the JPA queries for 80% of the use cases. It is not intended 
 to cover all possible use cases. 
