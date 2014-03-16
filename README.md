@@ -31,4 +31,4 @@ With inner join of 2 entities:
       .resultList();
 
 This utility is intended to simplify the JPA queries for 80% of the use cases. It is not intended 
-to cover all possible use cases.
+to cover all possible use cases. 
