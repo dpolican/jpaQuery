@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<persistence  xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+  <persistence-unit name="openjpa">
+    <provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>
+    <class>com.quintech.entities.Address</class>
+    <class>com.quintech.entities.Person</class>
+    <class>com.quintech.entities.Phone</class>
+    <properties>
+      <property name="openjpa.ConnectionURL" value="jdbc:hsqldb:mem:testdb"/>
+      <property name="openjpa.ConnectionDriverName" value="org.hsqldb.jdbcDriver"/>
+      <property name="openjpa.ConnectionUserName" value="sa"/>
+      <property name="openjpa.ConnectionPassword" value=""/>
+      <property name="openjpa.Log" value="DefaultLevel=WARN, Runtime=INFO, Tool=INFO, SQL=TRACE"/>
+      <property name="openjpa.ConnectionFactoryProperties" value="PrintParameters=true" />
+    </properties>
+  </persistence-unit>
+</persistence>

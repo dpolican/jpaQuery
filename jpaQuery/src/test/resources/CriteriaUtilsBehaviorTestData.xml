@@ -1,0 +1,102 @@
+<dataset>
+  <table name="Person">
+    <column>PersonId</column>
+    <column>FirstName</column>
+    <column>LastName</column>
+    <column>DOB</column>
+    <column>Gender</column>
+    <row>
+      <value>1</value>
+      <value>John</value>
+      <value>Smith</value>
+      <value>1985-12-06 17:00:00</value>
+      <value>M</value>
+    </row>
+    <row>
+      <value>3</value>
+      <value>Susan</value>
+      <value>Bartel</value>
+      <value>1985-12-08 17:00:00</value>
+      <value>F</value>
+    </row>
+    <row>
+      <value>2</value>
+      <value>James</value>
+      <value>McKinley</value>
+      <value>1985-12-07 17:00:00</value>
+      <value>M</value>
+    </row>
+    <row>
+      <value>5</value>
+      <value>Van</value>
+      <value>Bonifacio</value>
+      <value>1985-12-10 17:00:00</value>
+      <value>M</value>
+    </row>
+    <row>
+      <value>4</value>
+      <value>Lisa</value>
+      <value>Perrine</value>
+      <value>1985-12-09 17:00:00</value>
+      <value>F</value>
+    </row>
+    <row>
+      <value>6</value>
+      <value>Mark</value>
+      <value>Buers</value>
+      <null />
+      <value>M</value>
+    </row>
+  </table>
+  <table name="Address">
+    <column>AddressId</column>
+    <column>PersonId</column>
+    <column>Street1</column>
+    <column>Street2</column>
+    <column>City</column>
+    <column>State</column>
+    <column>Zip</column>
+    <row>
+      <value>1</value>
+      <value>1</value>
+      <value>3421 W Parliament Ave</value>
+      <null />
+      <value>Huntington Beach</value>
+      <value>CA</value>
+      <value>92368</value>
+    </row>
+    <row>
+      <value>2</value>
+      <value>1</value>
+      <value>9247 E Allway Ln</value>
+      <null />
+      <value>Westminster</value>
+      <value>CA</value>
+      <value>94586</value>
+    </row>
+  </table>
+  <table name="Phone">
+    <column>PhoneId</column>
+    <column>PersonId</column>
+    <column>Number</column>
+    <column>Type</column>
+    <row>
+      <value>1</value>
+      <value>1</value>
+      <value>914-147-2534</value>
+      <value>Home</value>
+    </row>
+    <row>
+      <value>2</value>
+      <value>1</value>
+      <value>914-249-3519</value>
+      <value>Mobile</value>
+    </row>
+    <row>
+      <value>3</value>
+      <value>1</value>
+      <value>914-176-2549</value>
+      <value>Office</value>
+    </row>
+  </table>
+</dataset>
